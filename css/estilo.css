@@ -1,26 +1,17 @@
-
-body{
+body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 /* Área de menu */
 
-.menu a { 
+#menu a { 
 	color: white;
-	text-decoration: none;
-	padding: 5%;
 }
 
-.menu {
+#menu {
 	background-color: red;
-	text-align: center;
 }
 
 /* Área de rodapé */
-
-#txtpagamento {
-	color: red;
-	font-weight: bolder;
-}
 
 #rodape {
 	text-align: center;
@@ -30,9 +21,9 @@ body{
 
 .produtos {
 	text-align: left;
-	margin-top: -48.4%;
+	margin-top: -58.4%;
 	width: 85%;
-	margin-left: 15%;
+	margin-left: 20%;
 }
 
 .box_produto {
