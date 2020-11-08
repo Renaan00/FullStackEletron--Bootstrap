@@ -66,11 +66,6 @@ body {
 
 /* Página de contato */
 
-.contatos {
-	font-size: 20px; 
-	text-align: center;
- }
-
 .box_contato {
  	display: inline-block;
  	padding: 5%;

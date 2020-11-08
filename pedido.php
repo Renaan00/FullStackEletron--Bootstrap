@@ -48,26 +48,13 @@
 			margin-top: 50px;
 			padding: 100px;
 		}
-		form {
-			padding: 30px;
-		}
-		form input {
-			width: 260px;
-			height: 33px;
-			border: 1px solid #ccc;
-			border-radius: 5px;
-		}
+		
 		form #quant {
 			width: 44px;
 		}
 		form input[type=submit]{
 			width: 300px;
 			height: 35px;
-			border: none;
-			background-color: red;
-			color: white;
-			border-radius: 20px;
-			box-shadow: 5px 5px 5px #363636;
 		}
 	</style>
 	<div class="container-fluid">
@@ -82,24 +69,26 @@
 				<form action="#" method="POST">
 					<div class="form-group">
 						<label for="nome">Nome Completo:</label>
-						<input type="text" name="nome" value="" placeholder="Digite seu nome"><br><br>
+						<input type="text" class="form-control" name="nome" value="" placeholder="Digite seu nome">
 					</div>
 					<div class="form-group">
 						<label for="nome_produto">Nome do produto:</label>
-						<input type="text" name="nome_produto" value="" placeholder="Escreva o nome do produto">
+						<input type="text" class="form-control" name="nome_produto" value="" placeholder="Escreva o nome do produto">
+					</div>
+					<div class="form-group">
 						<label for="quantidade">Quantidade:</label>
-						<input type="number" id="quant" name="quantidade"><br><br>
+						<input type="number" class="form-control" id="quant" name="quantidade">
 					</div>
 					<div class="form-group">
 						<label for="endereco">Endereço:</label>
-						<input type="text" name="endereco" value="" placeholder="Digite seu ndereço"><br><br>
+						<input type="text" class="form-control" name="endereco" value="" placeholder="Digite seu ndereço">
 					</div>
 					<div class="form-group">
 						<label for="tel">Telefone:</label>
-						<input type="number" name="telefone" placeholder="(xx) xxxxx-xxxx"><br><br>
+						<input type="number" class="form-control" name="telefone" placeholder="(xx) xxxxx-xxxx">
 					</div>
 					<center>
-						<input type="submit" class="btn" value="Fazer pedido">
+						<input type="submit" class="btn btn-danger" value="Fazer pedido">
 					</center>
 				</form>
 			</div>
